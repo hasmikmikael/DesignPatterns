@@ -11,8 +11,11 @@ namespace SimpleFactoryPattern
         public override IAnimal CreateAnimal()
         {
             IAnimal intendedAnimal = null;
+
             Console.WriteLine("Enter your choice(0 for Dog, 1 for Tiger)");
+
             string b1 = Console.ReadLine();
+
             int input;
 
             if (int.TryParse(b1, out input)) 
