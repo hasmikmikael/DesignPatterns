@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleFactoryPattern", "SimpleFactory\SimpleFactoryPattern.csproj", "{58537D23-C6E5-4897-AD87-B5B276C3AD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{0B97505E-98BC-4565-BC16-E7181478EA19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern\FactoryMethodPattern.csproj", "{0B97505E-98BC-4565-BC16-E7181478EA19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactoryPattern", "AbstractFactoryPattern\AbstractFactoryPattern.csproj", "{D69A729B-8905-4C81-9AB9-7B605E38218B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0B97505E-98BC-4565-BC16-E7181478EA19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B97505E-98BC-4565-BC16-E7181478EA19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B97505E-98BC-4565-BC16-E7181478EA19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D69A729B-8905-4C81-9AB9-7B605E38218B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69A729B-8905-4C81-9AB9-7B605E38218B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69A729B-8905-4C81-9AB9-7B605E38218B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69A729B-8905-4C81-9AB9-7B605E38218B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
