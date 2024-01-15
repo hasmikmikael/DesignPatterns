@@ -11,15 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactoryPattern", "A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypePattern", "PrototypePattern\PrototypePattern.csproj", "{8931ED97-2513-474E-9E7A-81F9A0280B25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A0F1F732-F043-46D0-B901-9C99124D314D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{A0F1F732-F043-46D0-B901-9C99124D314D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{F2B126B0-C6EB-400C-B0BB-FE958CD54E1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{F2B126B0-C6EB-400C-B0BB-FE958CD54E1E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{6A4C079E-29CB-40BD-91EA-92E8FC12D5A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgePattern", "BridgePattern\BridgePattern.csproj", "{6A4C079E-29CB-40BD-91EA-92E8FC12D5A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifiedAdapterPattern", "ModifiedAdapterPattern\ModifiedAdapterPattern.csproj", "{2C102C65-ED26-4F83-9F68-73DC9A005C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModifiedAdapterPattern", "ModifiedAdapterPattern\ModifiedAdapterPattern.csproj", "{2C102C65-ED26-4F83-9F68-73DC9A005C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{3C6F9192-0D2A-400B-814E-8C79FCEB070C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlyweightPattern", "FlyweightPattern\FlyweightPattern.csproj", "{3C6F9192-0D2A-400B-814E-8C79FCEB070C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModifiedFlyweightPattern", "ModifiedFlyweightPattern\ModifiedFlyweightPattern.csproj", "{EBC4579D-9628-4C6B-805E-E5B3AD81D0EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3C6F9192-0D2A-400B-814E-8C79FCEB070C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C6F9192-0D2A-400B-814E-8C79FCEB070C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C6F9192-0D2A-400B-814E-8C79FCEB070C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC4579D-9628-4C6B-805E-E5B3AD81D0EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC4579D-9628-4C6B-805E-E5B3AD81D0EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC4579D-9628-4C6B-805E-E5B3AD81D0EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC4579D-9628-4C6B-805E-E5B3AD81D0EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
